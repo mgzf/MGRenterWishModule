@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4769FC6F1F434A08000B8D52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FC6E1F434A08000B8D52 /* AppDelegate.swift */; };
+		4769FC711F434A08000B8D52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FC701F434A08000B8D52 /* ViewController.swift */; };
+		4769FC741F434A08000B8D52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4769FC721F434A08000B8D52 /* Main.storyboard */; };
+		4769FC761F434A08000B8D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4769FC751F434A08000B8D52 /* Assets.xcassets */; };
+		4769FC791F434A08000B8D52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4769FC771F434A08000B8D52 /* LaunchScreen.storyboard */; };
+		4769FC841F434A08000B8D52 /* MGRenterWishModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FC831F434A08000B8D52 /* MGRenterWishModuleTests.swift */; };
+		4769FC8F1F434A08000B8D52 /* MGRenterWishModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FC8E1F434A08000B8D52 /* MGRenterWishModuleUITests.swift */; };
+		4769FC9D1F434B2A000B8D52 /* WishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FC9C1F434B2A000B8D52 /* WishViewController.swift */; };
+		489F5E934E03A4BB91E2D816 /* Pods_MGRenterWishModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958F2845D291AEBD86FA271B /* Pods_MGRenterWishModule.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4769FC801F434A08000B8D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4769FC631F434A08000B8D52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4769FC6A1F434A08000B8D52;
+			remoteInfo = MGRenterWishModule;
+		};
+		4769FC8B1F434A08000B8D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4769FC631F434A08000B8D52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4769FC6A1F434A08000B8D52;
+			remoteInfo = MGRenterWishModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38F4E9EE837B0EC4600B39CF /* Pods-MGRenterWishModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGRenterWishModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGRenterWishModule/Pods-MGRenterWishModule.release.xcconfig"; sourceTree = "<group>"; };
+		4769FC6B1F434A08000B8D52 /* MGRenterWishModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGRenterWishModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4769FC6E1F434A08000B8D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4769FC701F434A08000B8D52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4769FC731F434A08000B8D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4769FC751F434A08000B8D52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4769FC781F434A08000B8D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4769FC7A1F434A08000B8D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4769FC7F1F434A08000B8D52 /* MGRenterWishModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGRenterWishModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4769FC831F434A08000B8D52 /* MGRenterWishModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGRenterWishModuleTests.swift; sourceTree = "<group>"; };
+		4769FC851F434A08000B8D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4769FC8A1F434A08000B8D52 /* MGRenterWishModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGRenterWishModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4769FC8E1F434A08000B8D52 /* MGRenterWishModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGRenterWishModuleUITests.swift; sourceTree = "<group>"; };
+		4769FC901F434A08000B8D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4769FC9C1F434B2A000B8D52 /* WishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishViewController.swift; sourceTree = "<group>"; };
+		958F2845D291AEBD86FA271B /* Pods_MGRenterWishModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGRenterWishModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69B30A85FBA1A924CF0B2EB /* Pods-MGRenterWishModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGRenterWishModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGRenterWishModule/Pods-MGRenterWishModule.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4769FC681F434A08000B8D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489F5E934E03A4BB91E2D816 /* Pods_MGRenterWishModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4769FC7C1F434A08000B8D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4769FC871F434A08000B8D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06100F8773BD3200EC7B331C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				958F2845D291AEBD86FA271B /* Pods_MGRenterWishModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4769FC621F434A08000B8D52 = {
+			isa = PBXGroup;
+			children = (
+				4769FC6D1F434A08000B8D52 /* MGRenterWishModule */,
+				4769FC821F434A08000B8D52 /* MGRenterWishModuleTests */,
+				4769FC8D1F434A08000B8D52 /* MGRenterWishModuleUITests */,
+				4769FC6C1F434A08000B8D52 /* Products */,
+				BFAFED53F99371355ED512FC /* Pods */,
+				06100F8773BD3200EC7B331C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4769FC6C1F434A08000B8D52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4769FC6B1F434A08000B8D52 /* MGRenterWishModule.app */,
+				4769FC7F1F434A08000B8D52 /* MGRenterWishModuleTests.xctest */,
+				4769FC8A1F434A08000B8D52 /* MGRenterWishModuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4769FC6D1F434A08000B8D52 /* MGRenterWishModule */ = {
+			isa = PBXGroup;
+			children = (
+				4769FC6E1F434A08000B8D52 /* AppDelegate.swift */,
+				4769FC701F434A08000B8D52 /* ViewController.swift */,
+				4769FC721F434A08000B8D52 /* Main.storyboard */,
+				4769FC751F434A08000B8D52 /* Assets.xcassets */,
+				4769FC771F434A08000B8D52 /* LaunchScreen.storyboard */,
+				4769FC7A1F434A08000B8D52 /* Info.plist */,
+				4769FC9C1F434B2A000B8D52 /* WishViewController.swift */,
+			);
+			path = MGRenterWishModule;
+			sourceTree = "<group>";
+		};
+		4769FC821F434A08000B8D52 /* MGRenterWishModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4769FC831F434A08000B8D52 /* MGRenterWishModuleTests.swift */,
+				4769FC851F434A08000B8D52 /* Info.plist */,
+			);
+			path = MGRenterWishModuleTests;
+			sourceTree = "<group>";
+		};
+		4769FC8D1F434A08000B8D52 /* MGRenterWishModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4769FC8E1F434A08000B8D52 /* MGRenterWishModuleUITests.swift */,
+				4769FC901F434A08000B8D52 /* Info.plist */,
+			);
+			path = MGRenterWishModuleUITests;
+			sourceTree = "<group>";
+		};
+		BFAFED53F99371355ED512FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D69B30A85FBA1A924CF0B2EB /* Pods-MGRenterWishModule.debug.xcconfig */,
+				38F4E9EE837B0EC4600B39CF /* Pods-MGRenterWishModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4769FC6A1F434A08000B8D52 /* MGRenterWishModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4769FC931F434A08000B8D52 /* Build configuration list for PBXNativeTarget "MGRenterWishModule" */;
+			buildPhases = (
+				AC1A9177DDE1CFEAA6789624 /* [CP] Check Pods Manifest.lock */,
+				4769FC671F434A08000B8D52 /* Sources */,
+				4769FC681F434A08000B8D52 /* Frameworks */,
+				4769FC691F434A08000B8D52 /* Resources */,
+				5C28404D4C843F21D94A60E1 /* [CP] Embed Pods Frameworks */,
+				AF0607676BD272EA8BDDC588 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGRenterWishModule;
+			productName = MGRenterWishModule;
+			productReference = 4769FC6B1F434A08000B8D52 /* MGRenterWishModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4769FC7E1F434A08000B8D52 /* MGRenterWishModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4769FC961F434A08000B8D52 /* Build configuration list for PBXNativeTarget "MGRenterWishModuleTests" */;
+			buildPhases = (
+				4769FC7B1F434A08000B8D52 /* Sources */,
+				4769FC7C1F434A08000B8D52 /* Frameworks */,
+				4769FC7D1F434A08000B8D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4769FC811F434A08000B8D52 /* PBXTargetDependency */,
+			);
+			name = MGRenterWishModuleTests;
+			productName = MGRenterWishModuleTests;
+			productReference = 4769FC7F1F434A08000B8D52 /* MGRenterWishModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4769FC891F434A08000B8D52 /* MGRenterWishModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4769FC991F434A08000B8D52 /* Build configuration list for PBXNativeTarget "MGRenterWishModuleUITests" */;
+			buildPhases = (
+				4769FC861F434A08000B8D52 /* Sources */,
+				4769FC871F434A08000B8D52 /* Frameworks */,
+				4769FC881F434A08000B8D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4769FC8C1F434A08000B8D52 /* PBXTargetDependency */,
+			);
+			name = MGRenterWishModuleUITests;
+			productName = MGRenterWishModuleUITests;
+			productReference = 4769FC8A1F434A08000B8D52 /* MGRenterWishModuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4769FC631F434A08000B8D52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Harly;
+				TargetAttributes = {
+					4769FC6A1F434A08000B8D52 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 966SKDK4CF;
+						ProvisioningStyle = Automatic;
+					};
+					4769FC7E1F434A08000B8D52 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 966SKDK4CF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4769FC6A1F434A08000B8D52;
+					};
+					4769FC891F434A08000B8D52 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 966SKDK4CF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4769FC6A1F434A08000B8D52;
+					};
+				};
+			};
+			buildConfigurationList = 4769FC661F434A08000B8D52 /* Build configuration list for PBXProject "MGRenterWishModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4769FC621F434A08000B8D52;
+			productRefGroup = 4769FC6C1F434A08000B8D52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4769FC6A1F434A08000B8D52 /* MGRenterWishModule */,
+				4769FC7E1F434A08000B8D52 /* MGRenterWishModuleTests */,
+				4769FC891F434A08000B8D52 /* MGRenterWishModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4769FC691F434A08000B8D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4769FC791F434A08000B8D52 /* LaunchScreen.storyboard in Resources */,
+				4769FC761F434A08000B8D52 /* Assets.xcassets in Resources */,
+				4769FC741F434A08000B8D52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4769FC7D1F434A08000B8D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4769FC881F434A08000B8D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C28404D4C843F21D94A60E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MGRenterWishModule/Pods-MGRenterWishModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC1A9177DDE1CFEAA6789624 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0607676BD272EA8BDDC588 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MGRenterWishModule/Pods-MGRenterWishModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4769FC671F434A08000B8D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4769FC711F434A08000B8D52 /* ViewController.swift in Sources */,
+				4769FC6F1F434A08000B8D52 /* AppDelegate.swift in Sources */,
+				4769FC9D1F434B2A000B8D52 /* WishViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4769FC7B1F434A08000B8D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4769FC841F434A08000B8D52 /* MGRenterWishModuleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4769FC861F434A08000B8D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4769FC8F1F434A08000B8D52 /* MGRenterWishModuleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4769FC811F434A08000B8D52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4769FC6A1F434A08000B8D52 /* MGRenterWishModule */;
+			targetProxy = 4769FC801F434A08000B8D52 /* PBXContainerItemProxy */;
+		};
+		4769FC8C1F434A08000B8D52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4769FC6A1F434A08000B8D52 /* MGRenterWishModule */;
+			targetProxy = 4769FC8B1F434A08000B8D52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4769FC721F434A08000B8D52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4769FC731F434A08000B8D52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4769FC771F434A08000B8D52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4769FC781F434A08000B8D52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4769FC911F434A08000B8D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4769FC921F434A08000B8D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4769FC941F434A08000B8D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69B30A85FBA1A924CF0B2EB /* Pods-MGRenterWishModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MGRenterWishModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.wish.MGRenterWishModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4769FC951F434A08000B8D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F4E9EE837B0EC4600B39CF /* Pods-MGRenterWishModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MGRenterWishModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.wish.MGRenterWishModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4769FC971F434A08000B8D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MGRenterWishModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.wish.MGRenterWishModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGRenterWishModule.app/MGRenterWishModule";
+			};
+			name = Debug;
+		};
+		4769FC981F434A08000B8D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MGRenterWishModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.wish.MGRenterWishModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGRenterWishModule.app/MGRenterWishModule";
+			};
+			name = Release;
+		};
+		4769FC9A1F434A08000B8D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MGRenterWishModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.wish.MGRenterWishModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MGRenterWishModule;
+			};
+			name = Debug;
+		};
+		4769FC9B1F434A08000B8D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 966SKDK4CF;
+				INFOPLIST_FILE = MGRenterWishModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogoroom.wish.MGRenterWishModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MGRenterWishModule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4769FC661F434A08000B8D52 /* Build configuration list for PBXProject "MGRenterWishModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4769FC911F434A08000B8D52 /* Debug */,
+				4769FC921F434A08000B8D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4769FC931F434A08000B8D52 /* Build configuration list for PBXNativeTarget "MGRenterWishModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4769FC941F434A08000B8D52 /* Debug */,
+				4769FC951F434A08000B8D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4769FC961F434A08000B8D52 /* Build configuration list for PBXNativeTarget "MGRenterWishModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4769FC971F434A08000B8D52 /* Debug */,
+				4769FC981F434A08000B8D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4769FC991F434A08000B8D52 /* Build configuration list for PBXNativeTarget "MGRenterWishModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4769FC9A1F434A08000B8D52 /* Debug */,
+				4769FC9B1F434A08000B8D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4769FC631F434A08000B8D52 /* Project object */;
+}
