@@ -36,6 +36,6 @@ final class WishViewController: UIViewController
 extension WishViewController : InitNavigable
 {
     convenience init?(navigation: DeeplinkNavigation){
-        self.init(nibName: "WishViewController", bundle:ResourcesBundle)
+        self.init()
     }
 }
