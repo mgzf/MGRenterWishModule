@@ -20,16 +20,9 @@ final class WishViewController: UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "sasasas"
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
-        self.title = "sasasas"
-        // Dispose of any resources that can be recreated.
-    }
-    
 
 }
 
