@@ -17,6 +17,6 @@ class NavigationSubStore : NSObject
 {
     func navigationMapping() -> [String : String]
     {
-        return ["WishViewController" : MogoRenterScheme]
+        return ["WishViewController" : wishUrl]
     }
 }
