@@ -15,6 +15,7 @@
 		4769FC841F434A08000B8D52 /* MGRenterWishModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FC831F434A08000B8D52 /* MGRenterWishModuleTests.swift */; };
 		4769FC8F1F434A08000B8D52 /* MGRenterWishModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FC8E1F434A08000B8D52 /* MGRenterWishModuleUITests.swift */; };
 		4769FC9D1F434B2A000B8D52 /* WishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769FC9C1F434B2A000B8D52 /* WishViewController.swift */; };
+		477A72871F43F86F00D9D9C2 /* NavigationSubStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A72861F43F86F00D9D9C2 /* NavigationSubStore.swift */; };
 		489F5E934E03A4BB91E2D816 /* Pods_MGRenterWishModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958F2845D291AEBD86FA271B /* Pods_MGRenterWishModule.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		4769FC8E1F434A08000B8D52 /* MGRenterWishModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGRenterWishModuleUITests.swift; sourceTree = "<group>"; };
 		4769FC901F434A08000B8D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4769FC9C1F434B2A000B8D52 /* WishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishViewController.swift; sourceTree = "<group>"; };
+		477A72861F43F86F00D9D9C2 /* NavigationSubStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationSubStore.swift; path = MGNavigatorStore/NavigationSubStore.swift; sourceTree = "<group>"; };
 		958F2845D291AEBD86FA271B /* Pods_MGRenterWishModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGRenterWishModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69B30A85FBA1A924CF0B2EB /* Pods-MGRenterWishModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGRenterWishModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGRenterWishModule/Pods-MGRenterWishModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 		4769FC6D1F434A08000B8D52 /* MGRenterWishModule */ = {
 			isa = PBXGroup;
 			children = (
+				477A72851F43F35F00D9D9C2 /* MGNavigatorStore */,
 				4769FC6E1F434A08000B8D52 /* AppDelegate.swift */,
 				4769FC701F434A08000B8D52 /* ViewController.swift */,
 				4769FC721F434A08000B8D52 /* Main.storyboard */,
@@ -141,6 +144,14 @@
 				4769FC901F434A08000B8D52 /* Info.plist */,
 			);
 			path = MGRenterWishModuleUITests;
+			sourceTree = "<group>";
+		};
+		477A72851F43F35F00D9D9C2 /* MGNavigatorStore */ = {
+			isa = PBXGroup;
+			children = (
+				477A72861F43F86F00D9D9C2 /* NavigationSubStore.swift */,
+			);
+			name = MGNavigatorStore;
 			sourceTree = "<group>";
 		};
 		BFAFED53F99371355ED512FC /* Pods */ = {
@@ -342,6 +353,7 @@
 			files = (
 				4769FC711F434A08000B8D52 /* ViewController.swift in Sources */,
 				4769FC6F1F434A08000B8D52 /* AppDelegate.swift in Sources */,
+				477A72871F43F86F00D9D9C2 /* NavigationSubStore.swift in Sources */,
 				4769FC9D1F434B2A000B8D52 /* WishViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
